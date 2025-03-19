@@ -3,7 +3,7 @@ from telegram import Update, ReplyKeyboardMarkup
 from weather_fetch import fetch_weathercast
 from get_weather_emoji import get_weather_emoji
 
-TELEGRAM_TOKEN = "8172591530:AAFfLk4weP07PGkc7ok9KilVXSDT1kjkeso"
+TELEGRAM_TOKEN = "YOUR_TOKEN"
 TELEGRAM_CHAT_ID = "497292801"
 
 async def weather_command(update: Update, context: ContextTypes.DEFAULT_TYPE): #команда /weather, отправляет текущую спаршенную погоду 
